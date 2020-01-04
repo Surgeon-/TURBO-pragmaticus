@@ -1,0 +1,10 @@
+
+ 4d12×2:
+
+ 1.. 8 - Nemesis
+ 9..24 - Hostile
+25..40 - Unfavourable
+41..56 - Neutral
+57..72 - Friendly
+73..88 - Brotherly
+89..96 - Deep commitment

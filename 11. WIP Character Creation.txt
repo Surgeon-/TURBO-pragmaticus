@@ -1,0 +1,72 @@
+
+0. Choose Species
+
+	- ...
+	
+1. Assign ranks to 5 categories:
+	Attributes, Skills, Perks, Social status, Magical aptitude
+	
+	Power - Low:    -, -, B, C, D, E, C
+	Power - Medium: -, A, B, C, D, E,
+	Power - High:   S, A, B, C, D, -
+
+2. Assign Attributes
+
+	- {23, 25, 27, 29, 31, *36} Points
+	- All Attributes start at 1
+	- All attributes must end up >= 1 and <= 12
+	- Cost: 1pt  per attribute (new score is 2..8)
+			2pts per attribute (new score is 9..10)
+			3pts per attribute (new score is 11)
+			4pts per attribute (new score is 12)
+	- Cost (Table):
+	    Score : Points
+		 1 :  0
+		 2 :  1
+		 3 :  2
+		 4 :  3
+		 5 :  4
+		 6 :  5
+		 7 :  6
+		 8 :  7
+		 9 :  9
+		10 : 11
+		11 : 14
+		12 : 18
+			
+3. Assign Skills
+
+	- {10, 12, 14, 16, 18, *24} Points
+	- All Skills start at 0
+	- Cost: 0 -> 1, 1 -> 2 : 1pt
+			2 -> 3, 3 -> 4 : 2pts
+			4 -> 5         : 3pts
+			6 -> 6         : 4pts
+			
+3.1 Assign Specializations
+
+	- {5, 6, 7, 8, 9, *12} Points
+	- You start with no Specializations
+	- Cost: 1pt per rank
+
+4. Choose Traits
+	[no dependency on ranks]
+
+5. Choose Perks
+	- {1, 2, 3, 4, 5, *8} Perks to choose
+	
+6. Social Status stuff
+   S - Noble or equivalent
+   A - Rich citizen
+   B - Middle-class citizen
+   C - Citizen (???)
+   D - Poor peasant
+   E - Homeless & Completely broke, has almost nothing
+
+6.1 Choose possesions (property, items etc.)
+   
+7. Magic stuff (if needed)
+   S - Competent mage
+   A - Journeyman mage
+   B - Hedge mage
+   C, D, E - No magical aptitude

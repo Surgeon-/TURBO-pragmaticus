@@ -1,0 +1,79 @@
+
+ - Passive Perks
+ - Enhancer Perks
+ - FoRKable Perks
+ 
+ ---------------
+ 
+ - Warrior Perks
+ - Infiltrator Perks
+ - Mage Perks
+ - "Social" Perks
+ - Miscellaneous Perks
+
+===============================================================================
+
+Alertness:
++1 AP at the start of a Sequence (lost if not used before the player's turn)
+
+Awareness: (req. Reaction 6)
++2 to Initiative
+
+Backstab:
+Damage vs unaware opponents is rounded up instead of down.
+Doesn't work vs enemies 2 or more size categories above you [Enhancer]
+
+Dodger: (req. Reaction 6, Agility 6)
+Passive +1 bonus to defence
+
+Ironclad:
+Minimal Enervation reduced by 1.
+
+Stability:
++1 Success needed to trip you
+
+Titan's Grip:
+No penalty for wielding a two-handed weapon in one hand
+
+Stone Wall: (req. Stability & Titan's Grip)
++1 Success needed to trip or disarm you
+
+Toughness: (req. Might 8)
++1 Constitution
+
+Nerves of Steel
++2 Stress Track slots
+
+Diehard: (req. Might 9)
++1 Wound Slot of each level
+
+Pocket Ordinance:
++2 Might for ranged weapon Might requirements
+
+Heavyweight:
++2 Might for melee weapon Might requirements
+
+Action (Wo)Man:
+Once per round, one action costs 1 AP less [Enhancer]
+
+Adrenaline Rush:
+Natural 11 (12) on Initiative rolls = +1 (2) AP
+
+Penetrator:
++25% Armour Pen value; Cost: 1 Success [Enhancer]
+
+In corpore sano: (req. Might 6)
+Gain a number of Stress Slots equal to Might modifier
+
+Tenacious Personality: (req. Presence 6)
+Gain a number of Stress Slots equal to Presence modifier
+
+Lip-reading:
+Can read lips perfectly. Requires a successful Perception::Sight test
+and understanding the language. [Enhancer]
+
+Slasher:
+Also benefit from "Razor" benefits if enemy gets exactly 1 success on their armour roll.
+
+???:
++1 Passive Defence Score up to 3; if it's already 3 - 1 free active defence per cycle

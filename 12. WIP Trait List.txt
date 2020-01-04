@@ -1,0 +1,152 @@
+
+ - Mundane Traits
+ - Supernatural Traits
+ - Lifepath/Exaltation Traits
+
+===============================================================================
+Positive:
+
+[1] ?
+Take any perk, even if you don't fulfill the requirements.
+
+[1] Ambidextrous
+
+[1] Fast Healing
+Healing Cycle ends when the Healing Track reaches 10 (instead of 12)
+
+[2+] The Art
+<Can cast spells>
+
+[1] All Along the Watchtower
+You're a frakking skinjob! <Corruption isn't visible, but ...?>
+
+[?] <Machine-reliant>
+
+[1] Perpetual Desolation
+You always deal damage as if you allocated 1 additional success, but... ?
+
+[0] Damaged Nerves
+<Reduced Focus loss from Wounds>
+
+//[?] Small Frame
+//-1 Constitution but +1 Agility
+
+[?] Pyromaniac
+<Reduce stress by burning stuff>
+
+[?] Anger Management / Vredesbyrd / Flame of Wrath
+<Barbarian Rage>
+
+[?] Doppleganger
+????????????????
+
+[?] Animatronic
+???????????????
+
+[?] Hrimata Eleison
+<Greed>
+
+[?] Rainbow Demon
+?????????????????
+
+[?] Together as One / Cerebrum Dei
+<Shared mind with TGM>
+
+[?] Leech
+Can advance the Healing Track by killing foes or something
+
+[?] Cerebral Fitness
+????????????????????
+
+[?] Kiss of Death
+<Had a near death experience>
+
+[?] A Sequel of Decay
+<Is a skeleton/undead>
+
+[?] Bruiser
+A little slower, but a little bigger.
++1 Constitution, Disadvantage to Stealth and active/passive defence
+(Doesn't stack with Muscle-Brained.)
+
+[?] Muscle-Brained
++1 Constitution, -1 Intelligence
+(Doesn't stack with Bruiser.)
+
+[?] Child of the Grave
+(Undead)
+
+[?] Iron Belly
+
+=======================================
+Negative:
+
+[?] Clumsy:
+-1 Action Point
+
+[?] Fragile:
+-1 Constitution
+
+[?] Pegleg:
+-1 Success needed to trip you; Reduced movement speed
+
+////////////////////////////////////////
+// CHARACTER TRAITS                   //
+////////////////////////////////////////
+
+Alert - You always pay close attention to your surroundings.
+
+Argumenter - Your preferred negotiating technique is backing up your claims with facts and logic.
+
+Brute - You like solving problems with pure physical force.
+
+Curious - You enjoy gathering knowledge and finding out new information.
+
+Creative - You like making and creating things.
+
+Explorer - ~~~ Bear Grylls stuff ~~~
+
+Finesse (Physical) - You rely on skill and technique rather than raw strength.
+
+Flirty - ~~~ ??? ~~~
+
+Handy - You're apt with tasks that require manual dexterity.
+
+Historian - You're interested in learning about past events.
+
+Infiltrator - You're comfortable lurking in the shadows.
+
+Inventor - Machines are your thing.
+
+Intimidator - Threats and display of force are your way of negotiating.
+
+Leader - Rallying troops and inspirational speaches - so say we all!
+
+Persistent - You can endure hardships well.
+
+Pickpocket - You often "borrow" things but "accidentally" forget to return them.
+
+Sly - You like getting things done through trickery and manipulation.
+
+Sporty - You like sports and similar sports-like activities.
+
+Stuntman - You like performing acrobatic stunts.
+
+Thinker - You don't mind activities that require cognitive effort.
+
+Perfectionist - You prefer to do things carefully and with attention to detail, even if it takes more time than usual.
+
+Rusher - You like finishing tasks as quickly as possible.
+
+
+
+
+
+
+
+
+
+
+
+
+

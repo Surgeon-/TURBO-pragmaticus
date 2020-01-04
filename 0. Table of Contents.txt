@@ -1,0 +1,26 @@
+0. Table of Contents
+1. Introduction
+    - incl. Needed items (dice etc.) and Setting info
+2. Elements of Character
+    - incl. Attributes and Derived Stats
+    
+3. Skills & Tests
+    - incl. Focus
+4. Skill List
+
+5. Stress
+6. Adventuring
+7. Corruption
+
+8. Combat
+9. Injury
+10. Equipment
+
+11. Character Creation
+12. Trait List
+13. Perk List
+14. "Fluff" tables
+
+15. Vestiges
+
+16. Magic

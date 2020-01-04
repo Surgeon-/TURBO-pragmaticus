@@ -1,0 +1,13 @@
+
+Head, 2×Leg, 2×Arm -> 12 pts each (60 total)
+	- Modification @ 4, 8 and 12 pts
+Torso -> 20 pts (20 total)
+	- Modification @ 5, 10, 15 and 20 pts
+--------------------------------------------
+Total Corruption = [0..80]
+
+Corruption reduces Stress Tolerance (1ST per 10 Corruption)
+
+When wounded, roll a d12 (d20 if the torso is hit):
+	if roll <= corruption amount then the wound is mechanical
+	otherwise it's normal
