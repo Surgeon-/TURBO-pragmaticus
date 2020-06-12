@@ -1,0 +1,11 @@
+I know a guy
+	(+ they know you)
+	
+I know a thing
+	(+ you know where to find it)
+
+I know a place
+	(+ you've been there)
+	
+I know a story
+	(+ ???)

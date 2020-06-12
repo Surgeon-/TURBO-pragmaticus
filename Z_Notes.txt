@@ -5,6 +5,8 @@ Tag Skills -> Double XP
 
 Mechanic: Resources <- Presence, Beauty (Appearance), NPC Initial Reaction, HP Buffer
 
+GRAVITAS
+
 Joint Action: When you use this action, do not discard the action die you just used. Instead,
 increase it by 1 (up to a maximum of 6) and give it to an adjecent ally. They can now
 immediately use it to perform one standard action, or save it for later. A single character
