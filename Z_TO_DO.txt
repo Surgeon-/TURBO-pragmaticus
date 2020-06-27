@@ -1,5 +1,5 @@
 
- - 1. Skill Tests [Advantage VS Disadvantage, Edge (Inspiration = +1 Edge)]
+ - 1. Skill Tests
  - 2. Circles / Reputation
  - 3. Combat Update
        - Dual Wielding
@@ -26,3 +26,7 @@
  ----------------------------------------------------------
  
  Combat frenzy, Reckless strike, Feel no Pain, Sixth Sense
+ 
+ 2 actions in a row in a sequence => ???
+ 
+ Dwarves that grow a lot of hair and eat rocks
