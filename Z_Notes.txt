@@ -20,7 +20,7 @@ for that one action he is about to perform.
 
 Transistor game
 
-Critical damage roll upon receiving level 5 wound.
+CUNNING TRICKS - Swappable Perks
 
 The weapon lists are incomplete. More weapons will be added in the future.
 To do: Exotic Weapons, Gauntlets, Monk Weapons.
