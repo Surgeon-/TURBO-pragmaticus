@@ -17,10 +17,11 @@ Healing Cycle ends when the Healing Track reaches 10 (instead of 12)
 [2+] The Art
 <Can cast spells>
 
-[1] All Along the Watchtower
-You're a frakking skinjob! <Corruption isn't visible, but ...?>
+[1] Skinjob
+"All along the watchtower..."
+<Corruption isn't visible, but ...?>
 
-[?] <Machine-reliant>
+[?] <Machine-reliant> / Machine Head
 
 [1] Perpetual Desolation
 You always deal damage as if you allocated 1 additional success, but... ?
@@ -33,6 +34,7 @@ You always deal damage as if you allocated 1 additional success, but... ?
 
 [?] Pyromaniac
 <Reduce stress by burning stuff>
+Counts as 1 Trauma
 
 [?] Anger Management / Vredesbyrd / Flame of Wrath
 <Barbarian Rage>
@@ -61,12 +63,15 @@ Can advance the Healing Track by killing foes or something
 [?] Kiss of Death
 <Had a near death experience>
 
+[?] A Sequel of Life
+<Is a zombie>
+
 [?] A Sequel of Decay
-<Is a skeleton/undead>
+<Is a skeleton>
 
 [?] Bruiser
 A little slower, but a little bigger.
-+1 Constitution, Disadvantage to Stealth and active/passive defence
++1 Constitution, cannot use free movement in sequences
 (Doesn't stack with Muscle-Brained.)
 
 [?] Muscle-Brained
@@ -78,8 +83,14 @@ A little slower, but a little bigger.
 
 [?] Iron Belly
 
+[?] Ace os Spades (Gambling)
+Effort re-rolls the die instead of adding +1
+
 =======================================
 Negative:
+
+[?] Lazy:
+Can use Effort on max. 1 Die
 
 [?] Clumsy:
 -1 Action Point

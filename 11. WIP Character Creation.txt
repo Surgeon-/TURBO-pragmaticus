@@ -62,6 +62,9 @@
    C - Citizen (???)
    D - Poor peasant
    E - Homeless & Completely broke, has almost nothing
+   
+   TODO: Expand into multiple categories like fame, wealth, respect,
+         status with various organizations etc.
 
 6.1 Choose possesions (property, items etc.)
    
