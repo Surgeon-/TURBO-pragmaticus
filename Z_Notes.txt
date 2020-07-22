@@ -18,6 +18,8 @@ If:
 You may expose yourself to make him immune to attacks of opportunity
 for that one action he is about to perform.
 
+Run action? (after two consecutive moves?)
+
 Transistor game
 
 CUNNING TRICKS - Swappable Perks
@@ -55,3 +57,6 @@ PILLARS:
 - 3. Exploration
 - 4. Infiltration
 - 5. ? Intrigue ?
+
+SPECIAL WEAPONS:
+Warsaw, Square Hammer, Pain(t)ball, Meatball, Meatshield

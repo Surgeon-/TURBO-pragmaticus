@@ -37,6 +37,8 @@
  
  heretter eventyr = hereafter adventures
  
+ Firing into Melee & Stuff
+ 
  ===================================
  
  Humans:

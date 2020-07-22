@@ -77,3 +77,20 @@ Also benefit from "Razor" benefits if enemy gets exactly 1 success on their armo
 
 ???:
 +1 Passive Defence Score up to 3; if it's already 3 - 1 free active defence per cycle
+
+Defensive Stance:
+After rolling AD, duplicate one die. That die and the new one can only be used to defend.
+
+Offensive Stance:
+After rolling AD, duplicate one die. That die and the new one can only be used to attack.
+
+Body of Titans:
+Receive damage as if you were 1 size category larger
+
+Titans' Grip:
+Dish out melee damage as if you were 1 size category larger <WIP>
+
+???:
+After an AOO, gain a new AD with 3 in 6 chance
+OR
+After an AOO, gain a new AD, same as the one you used for AOO but -1
