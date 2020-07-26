@@ -59,4 +59,4 @@ PILLARS:
 - 5. ? Intrigue ?
 
 SPECIAL WEAPONS:
-Warsaw, Square Hammer, Pain(t)ball, Meatball, Meatshield
+Warsaw, Square Hammer, Pain(t)ball, Meatball, Meatshield, Axe of Judgement

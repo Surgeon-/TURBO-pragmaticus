@@ -29,44 +29,48 @@
           NEW
 ========================
 
-0. TABLE OF CONTENTS:
+0. TABLE OF CONTENTS
 	Table of Contents
 
-1. INTRODUCTION:
+1. INTRODUCTION (PART I)
 	Introduction
 	Needed items
 	Setting info
 
-2. SYSTEM BASICS:
+2. SYSTEM BASICS (PART II)
 	Elements of Character
 	Skills & Skill Tests
 	Advancement
-	Hardship	
+	Hardship + Anatomy of Injury
 	
-3. CHARACTER CREATION:
+3. CHARACTER CREATION (PART III)
 	Character Creation
 	Skill List
 	Trait List (Sometimes refers to Detailed Subsystems)
 	Perk List  (Sometimes refers to Detailed Subsystems)
 	
-4. DETAILED SUBSYSTEMS:
+4. DETAILED SUBSYSTEMS (PART IV)
 	Adventuring, Pacing
+	Social Interactions
 	Inventory Management & Equipment Tables
 	Sequences
 	Combat
-	Anatomy of Injury
+	Downtime actions, macro-actions
 	
-5. META-MECHANICS:
+5. META-MECHANICS (PART V)
 	Karma
 	I know a ...
 	
-6. GM SECTION:
+6. GM SECTION (PART VI)
 	???
 	
-7. EXTRAS:
+7. EXTRAS (PART VII)
 	Corruption
 	Magic
 	
+8. SAMPLE MONSTERS/NPCs (PART VIII)
+
+9. REFERENCE/TABLES/PRINTABLES (PART IX)
 	
 	
 	

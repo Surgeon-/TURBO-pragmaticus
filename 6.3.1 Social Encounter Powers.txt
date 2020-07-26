@@ -1,0 +1,105 @@
+
+Empathy:
+    Always know Incentive/Obstacle total
+
+Beauty:
+    +1 Incentive where applicable
+
+Deflection:
+	Automatically negate consequences of failed intimidation
+	Automatically negate consequences of failed deception
+
+???:
+	Automatically detect lie
+	
+???:
+	Automatically pass with a lie
+	
+Besheech:
+	Defender tests with average Willpower of the crowd
+	
+Politician:
+	Defender tests with average Insight of the crowd
+	
+???:
+	After catching the other speaker in a lie, do...?
+	
+Aura of Innocence
+Aura of Detemination
+	This trait allows the character and
+	everyone within his presence to
+	reroll one test in a great effort.
+Aura of Fear
+Aura of Malevolence
+Aura of Benevolence
+Authoritative
+
+Orator
+Seduction
+Cool Header
+Cowardly
+Deaf
+
+Booming Voice:
+	This character’s voice cuts through
+	walls and overpowers otl1er speakers.
+	This is a call-on for Conspicuous,
+	Oratory or Command.
+	
+Bottomless Stomach:
+	Eat and eat and eat. °‘Natu1'e°s
+	Cruel Joke.” Characters with the
+	Bottomless Stomach trait are
+	at +1 Ob to all Resources tests
+	involving food, drink and meals.
+	
+Cipher:
+	It is not that the character is
+	completely nondescript, but there
+	is something about him that makes
+	people not notice him. This trait
+	shade shifts lnconspicuous to gray,
+	but adds +1 Ob to all Circles tests.
+	
+Claustrophobia:
+	Claustrophobia is a specific phobia
+	applying to enclosed spaces. A
+	character afflicted with this trait
+	will not willingly enter small spaces
+	like prison cells, closets, t11nnels,
+	tru11ks or even cramped rooms. If he
+	should find himself i11 a11 enclosed
+	space for along period of time (more
+	than a 111in11te or two), he becomes
+	agitated and eventually l1ysterical——
+	the character 1n11st pass a Steel test.
+	If failed, he n111st either Swoon or
+	Run and Scream.
+	
+Commanding:
+	This character possesses an
+	imperious and imposing demeanor.
+	His merest words seem like fiat and
+	his statements like edicts. His lessers
+	feel compelled to obey. Add +lD
+	to the character’s Command skill.
+	He may also help all those in his
+	presence with any Steel tests they are
+	compelled to make.
+	
+Entrophic:
+	Things fall apart around the
+	cl1aracter. Any mechanic that
+	involves something breaking—
+	armor or materials, for exan1plecounts
+	double in its effect. One
+	breach counts as two, one lost
+	armor die counts as two. Any DoF
+	mechanic for catastrophic failure
+	is weighted by +1 toward the worst
+	result. And any roll that results
+	in complete failure indicates that
+	something broke. Oops. This trait
+	affects everyone a11d everything i11
+	the characte1"s presence, including
+	himself.
