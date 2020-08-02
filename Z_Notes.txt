@@ -1,4 +1,4 @@
-Ironclad, Intrinsic, Mercurial, Morose, Saturnine, Nonpareil, Fighting Spirit
+Ironclad, Intrinsic, Mercurial, Morose, Saturnine, Nonpareil, Fighting Spirit, Stormblast
 
 Tag Skills -> Double XP
 2-Stage Skill Test
@@ -6,6 +6,22 @@ Tag Skills -> Double XP
 Mechanic: Resources <- Presence, Beauty (Appearance), NPC Initial Reaction, HP Buffer
 
 GRAVITAS
+
+THE AUXILARY
+
+"Who is your character, and what does he do?"
+
+"Remember, heroes are called that not because they're better than everybody else, 
+but because they're willing to fight, suffer and sacrifice for the things they
+believe in. Per Aspera Ad Astra."
+
+"If there is anything I have learned in my travels across the Planes, it is that many
+things may change the nature of a man. Whether regret, or love, or revenge or fear - 
+whatever you believe can change the nature of a man, can. I’ve seen belief move cities,
+make men stave off death, and turn an evil hag's heart half-circle. This entire Fortress
+has been constructed from belief. Belief damned a woman, whose heart clung to the hope
+that another loved her when he did not. Once, it made a man seek immortality and achieve
+it. And it has made a posturing spirit think it is something more than a part of me."
 
 Joint Action: When you use this action, do not discard the action die you just used. Instead,
 increase it by 1 (up to a maximum of 6) and give it to an adjecent ally. They can now
@@ -21,6 +37,10 @@ for that one action he is about to perform.
 Run action? (after two consecutive moves?)
 
 Transistor game
+
+WHFRPG 3RD did make a neat attempt to create general rules for progress in encounters and 
+enforce a narrative structure on them. Ultimately, it was a better execution than D&D 4E’s
+skill challenge system, but only just.
 
 CUNNING TRICKS - Swappable Perks
 

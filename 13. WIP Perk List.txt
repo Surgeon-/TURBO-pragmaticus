@@ -16,6 +16,9 @@
 Alertness:
 +1 AP at the start of a Sequence (lost if not used before the player's turn)
 
+Anticipation: (req. Int 6)
++INT to initiative
+
 Awareness: (req. Reaction 6)
 +2 to Initiative
 
@@ -87,7 +90,7 @@ After rolling AD, duplicate one die. That die and the new one can only be used t
 Body of Titans:
 Receive damage as if you were 1 size category larger
 
-Titans' Grip:
+Titan's Grip:
 Dish out melee damage as if you were 1 size category larger <WIP>
 
 ???:

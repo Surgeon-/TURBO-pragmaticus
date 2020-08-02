@@ -1,4 +1,8 @@
 
+5 arbitrary interests
+
+===========
+
 Empathy:
     Always know Incentive/Obstacle total
 
@@ -24,6 +28,42 @@ Politician:
 ???:
 	After catching the other speaker in a lie, do...?
 	
+???:
+	Koan Varvarin iz Disksveta - sećaš se, ako dovoljno imaju dodira
+	s njim, ljudi počnu da gledaju svet iz njegove perspektive xD
+	
+???:
+	Person forgets you after the encounter
+	BitD = Mesmerism: When you Sway someone, you may cause them to forget
+	that it's happened until they next interact with you.
+	
+Confabulator:
+	Even when caught in falsehoods, you pile lie upon lie. Reduce the
+	circumstance bonus a target gains for your previous attempts
+	to Create a Diversion or Lie to it from +4 to +2. If you’re a master
+	in Deception, reduce the bonus to +1, and if you’re legendary,
+	your targets don’t get these bonuses at all.
+	
+Cloak & Dagger: When you use a disguise or other form of covert
+misdirection, you get +1d to rolls to confuse or deflect suspicion.
+When you throw off your disguise, the resulting surprise gives 
+you the initiative in the situation.
+
+Trust in Me: You get +1d vs. a target with whom you have an
+intimate relationship.
+
+Dubious Knowledge:
+	You’re a treasure trove of information, but not all of it comes
+	from reputable sources. When you fail a Recall Knowledge
+	check using any skill, you learn a bit of true knowledge and
+	a bit of erroneous knowledge, but you don’t have any way to
+	differentiate which is which
+
+======
+Etiquette feats: Impersonate a noble, security guard, peasant, scientist etc...
+
+Perfect Impersonation/Voice Imitation
+
 Aura of Innocence
 Aura of Detemination
 	This trait allows the character and
@@ -39,6 +79,11 @@ Seduction
 Cool Header
 Cowardly
 Deaf
+Extrovert
+Yes-man (doesn't have to roll to help with persuasion)
+Know someone's willpower
+
+Language stuff...
 
 Booming Voice:
 	This character’s voice cuts through
@@ -103,3 +148,59 @@ Entrophic:
 	affects everyone a11d everything i11
 	the characte1"s presence, including
 	himself.
+	
+BW Lucky
+
+Poker Face:
+	More than just an inscrutable stone
+	face, Poker Face is all about giving
+	the face you need to mislead your
+	opponent. This trait can be used as a
+	call-on for Falsehood and Cambling/
+	Games of Chance.
+	
+Possessed:
+	This special trait may only be
+	chosen after consultation with the
+	GM and/or other players. If it is
+	take11, the character is possessed by
+	a daemon, spirit or seraph. Choose
+	one appropriate trait to be made
+	manifest through the human vessel
+	from the daemon/seraph list in the
+	Monster Burner. I recommend that
+	Lawbreaker con1e along with any
+	and all choices, but it°s not required.
+	Once the nature of the possession
+	is determined, the player and the
+	GM need to devise a separate set
+	of Beliefs and Instincts for the
+	possessing spirit. When these come
+	i11to conflict with the character°s
+	own BlTs, a versus Will test must
+	be made—tl1e spirit against the
+	cl1aracter. Use the appropriate Will
+	from the stat blocks in the Monster
+	Burner. Whoever wins the test can
+	enact his Belief or Instinct.
+	A Possessed person can be exorcised
+	as per the Faith mechanics in
+	the Burning Wheel. Whether or
+	not he wants to be exorcised is
+	another matter. Also, the Possessed
+	character°s aura (for Aura Reading)
+	will show the additional trait and
+	the additional set of Beliefs and
+	Instincts.
+	
+???:
+	Regain 1 "social HP" when you would lose
+	[once per encounter]
+	
+Wise Aphorisms:
+	Use this a caIl—on for
+	Persuasion, Oratory, Interrogation or
+	Seduction if the player can co111e up
+	with some appropriately sagacious
+	dialogue to throw into play at the
+	right moment.

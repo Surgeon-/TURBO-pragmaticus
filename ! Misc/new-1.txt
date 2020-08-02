@@ -1,0 +1,24 @@
+-Hitler, ocigledan odgovor
+	#Sigurnost, vera u ono sto govore, sam ton govora
+	#Drugi svetski rat? xD
+	#Cenim da ce za vecinu likova ovde biti to sto imas moc da promenis ljudima tacku gledista,
+		da ih ubedis u nesto u sta ti verujes i da ih na jedan ili drugi nacin pretvoris u pratioce.
+		A rekao bih da se korist ovog tipa likova smanjuje kako raste njihov broj.
+	#Great speaker: You have the ability to influence peoples choices with your speaches
+-Sheppard ME
+	#Empatija, pozrtvovanost, status u svetu
+	#Rasprava sa Wrexom gde on hoce da unisti genophage cure i izbija sukob
+	#Isti slucaj kao i gore
+	#Famous:People are a bit friendlier than usual while talking to you
+		Authority:Your position makes people more likely to listen to you
+		(Implementacije bi vise zavisile od samog sistema)
+-Satljin
+	#Uspostavljen kult licnosti, strah od nestajanja, nemilostdnost
+	#Drug svetski rat? xD
+	#Ovde je opet ista stvar kao i gore, samo sto ovde na drugaciji nacin menjas ljudima misljenje(intimidacija)
+	#Intimidating persona:Have the ability(or a well known history) to make people fear you, 
+		and therefore respect you more
+		
+Cenim da dosta ovakvih stvari zavisi od toga kako je resen sistem,
+i da bi dobar deo ovih bonusa mogao da se svede na +2 na intimidate.
+Ali to sve zavisi od implementacije ovih iole osnovnih principa.
