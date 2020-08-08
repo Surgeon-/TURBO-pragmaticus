@@ -36,6 +36,8 @@ for that one action he is about to perform.
 
 Run action? (after two consecutive moves?)
 
+PERK for bonus to follow up test after a successful lie (Persuasion rules)
+
 Transistor game
 
 WHFRPG 3RD did make a neat attempt to create general rules for progress in encounters and 
