@@ -1,11 +1,19 @@
 I know a guy
-	(+ they know you)
+	(+  you know something about them - test knowledge
+	 ++ you're friends / acquaintances - test circles [Presence])
 	
 I know a thing
-	(+ you know where to find it)
+	(+  you know where to find it - test knowledge
+	 ++ you have it - test preparedness [Intelligence])
 
 I know a place
-	(+ you've been there)
+	(+  you know where it is / how to get there - test knowledge
+ 	 ++ you've been there and have ties there - test MR WORLDWIDE [?] <TODO>)
 	
-I know a story
-	(+ ???)
+----------------------------------
+	
+Flashback (something something Cunning)
+	
+
+
+
