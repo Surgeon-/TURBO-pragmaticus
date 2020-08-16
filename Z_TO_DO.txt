@@ -41,6 +41,8 @@
  
  Perk that adds +1 AD up to max of 4, if already 4, then ...
  
+ Simplified enemies / NPCs
+ 
  ===================================
  
  Humans:
@@ -61,7 +63,7 @@
     Troll regeneration
 	Option for super growth
 	
- Vandroiy:
+ Vendrooiy:
 	Tall dudes for whom knowledge is hereditary
 	
  Kasechel:

@@ -1,0 +1,73 @@
+Tracking and measuring time and tension is done according to The Angry GM's
+Time/Tension pool mechanic:
+	1. https://theangrygm.com/tension-on-the-road/
+	2. https://theangrygm.com/making-things-complicated/
+	
+With the following time scales:
+    - 10 seconds (1 sequence round)
+		6 × 10 seconds = 1 minute
+	- 10 minutes
+	    6 × 10 minutes = 1 hour
+	- 4 hours
+	    6 × 4 hours = 1 day
+	- 1 day
+	    6 × 1 day = 1 week (1 missing day is hand-waved away)
+		
+	When shifting between time scales:
+		If going from a less granular to more granular time scale, no special
+		action is needed (just keep the dice as they are).
+		ex. days -> hours
+		"inflation"
+		
+		If going from a more granular to less granular time scale, roll
+		all the dice in the pool (introduce a complication if there are any
+		1s), then clear the pool.
+		ex. seconds -> minutes
+		"deflation"
+		
+Resting:
+	- Short Rest:    [5 to 10 minutes]
+		Limitation: cannot do 1 hour after any kind of rest
+		Effect: Lose d3 Fatigue points
+		
+	- Medium rest:   [1 to a few hours]
+		Limitation: cannot do 4 hours after a medium, long or full-day rest
+		Effect: Lose 2d3 Fatigue Points
+		
+	- Long Rest:     [about 8 hours]
+		Limitation: once per day
+		Effect: Lose all Fatigue points
+		        Lose 1 Exhaustion point
+				Lose 1 Stress point
+				Advance healing cycle
+		
+	- Full-day Rest: [the whole day - 24 hours]
+		Limitation: once per day (obviously)
+		Effect: Effect: Lose all Fatigue points
+		        Lose 1 Exhaustion point
+				Lose 2 Stress points
+				Advance healing cycle (+3 automatic successes)
+				
+Practicing:
+	You can practice either a Skill or a Specialization. In either way, you
+	must find something relevant to do and describe how you're practicing.
+	> It takes 4 hours in both cases. <
+	
+	- Practice a Skill:
+		Roll 3d10. If any die rolls higher than your current Rank with that
+		Skill, you may receive a Routine PROG for that Skill. Getting a
+		Difficult PROG requires at least two dice to ge higher that your
+		current Rank, and if all three are higher, you may get a Challenging
+		PROG.
+		
+		Get a Fatigue point for each die that rolled 6 or higher.
+		
+	- Practice a Specialization:
+		You automatically get one PROG, but you still roll 3d10 and get a
+		Fatigue point for each one that turns up with a 6 or higher.
+	
+		
+	
+	
+	
+	
