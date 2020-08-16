@@ -65,6 +65,13 @@ Practicing:
 	- Practice a Specialization:
 		You automatically get one PROG, but you still roll 3d10 and get a
 		Fatigue point for each one that turns up with a 6 or higher.
+		
+	When you roll 3d10 for either form of Practice and get doubles, also
+	get 1 Stress point, and 2 Stress points if you roll triples.
+	
+	When you have a tutor, get a bonus to all d10 rolls up to the difference
+	between your rank and theirs (could be less if they're not a good teacher).
+	This does not affect Fatigue gain, which happens only on a natural 6+.
 	
 		
 	

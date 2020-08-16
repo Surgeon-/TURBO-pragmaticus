@@ -21,7 +21,7 @@ Healing Cycle ends when the Healing Track reaches 10 (instead of 12)
 "All along the watchtower..."
 <Corruption isn't visible, but ...?>
 
-[?] <Machine-reliant> / Machine Head
+[?] <Machine-reliant> / Machinehead
 
 [1] Perpetual Desolation
 You always deal damage as if you allocated 1 additional success, but... ?
@@ -36,7 +36,7 @@ You always deal damage as if you allocated 1 additional success, but... ?
 <Reduce stress by burning stuff>
 Counts as 1 Trauma
 
-[?] Anger Management / Vredesbyrd / Flame of Wrath
+[?] Anger (Mis)management / Vredesbyrd / Flame of Wrath
 <Barbarian Rage>
 
 [?] Doppleganger
@@ -85,6 +85,9 @@ A little slower, but a little bigger.
 
 [?] Ace os Spades (Gambling)
 Effort re-rolls the die instead of adding +1
+
+[?] Fast Metabolism
+Shorter healing cycle but gets hungry faster
 
 =======================================
 Negative:
