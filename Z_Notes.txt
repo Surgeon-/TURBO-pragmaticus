@@ -6,6 +6,8 @@ Tag Skills -> Double XP
 
 Mechanic: Resources <- Presence, Beauty (Appearance), NPC Initial Reaction, HP Buffer
 
+Bennies = Pragma Points
+
 GRAVITAS
 
 THE AUXILARY
