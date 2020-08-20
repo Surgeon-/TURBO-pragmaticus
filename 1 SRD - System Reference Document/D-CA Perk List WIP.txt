@@ -93,6 +93,18 @@ Receive damage as if you were 1 size category larger
 Titan's Grip:
 Dish out melee damage as if you were 1 size category larger <WIP>
 
+Helpful:
+When Aiding another, give +1 Exp even on a failure, and +3 if you pass the original DC.
+
+Apprentice:
+When Aiding another, receive PROGs (counting the haved DC).
+
+Bully (probs good to change the name):
+When size adjustments are in your favour (against smaller creatures), double them.
+
+Big Game Hunter:
+When size adjustments are in your favour (against larger creatures), double them.
+
 ???:
 After an AOO, gain a new AD with 3 in 6 chance
 OR
