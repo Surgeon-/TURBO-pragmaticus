@@ -5,11 +5,17 @@
  
  ---------------
  
- - Warrior Perks
- - Infiltrator Perks
- - Mage Perks
- - "Social" Perks
- - Miscellaneous Perks
+ARCHETYPES:
+  - Battlemaster (combat)
+  - Thief        (stealth & trickery)
+  - Ambassador   (social)
+  - Explorer     (exploration, survival)
+  - Jack         (miscellaneous)
+  
+BONUS (under consideration):
+  - Crafter / Artificer
+  - Scientist / Alchemist
+  - Mage
 
 ===============================================================================
 
@@ -101,9 +107,13 @@ When Aiding another, receive PROGs (counting the haved DC).
 
 Bully (probs good to change the name):
 When size adjustments are in your favour (against smaller creatures), double them.
+OR
+only +1 with follow-up perk to double instead
 
 Big Game Hunter:
 When size adjustments are in your favour (against larger creatures), double them.
+OR
+only +1 with follow-up perk to double instead
 
 ???:
 After an AOO, gain a new AD with 3 in 6 chance

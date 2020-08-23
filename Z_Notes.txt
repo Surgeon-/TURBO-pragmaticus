@@ -12,7 +12,7 @@ Bennies = Pragma Points
 
 GRAVITAS
 
-THE AUXILARY
+THE AUXILARY, Maerceci - Trixter God
 
 "Who is your character, and what does he do?"
 
@@ -50,6 +50,14 @@ enforce a narrative structure on them. Ultimately, it was a better execution tha
 skill challenge system, but only just.
 
 CUNNING TRICKS - Swappable Perks
+
+"KOMBO" Perk chain
+	- Have an extra standard action as a swift action (AD = 1)
+		- Have AD = 2 for the extra action
+		- Have AD = 4 for the extra action
+	- Spend 2 AD in one turn
+
+Hellequin
 
 The weapon lists are incomplete. More weapons will be added in the future.
 To do: Exotic Weapons, Gauntlets, Monk Weapons.
