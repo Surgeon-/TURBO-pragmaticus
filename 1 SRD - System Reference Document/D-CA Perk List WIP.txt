@@ -105,7 +105,7 @@ When Aiding another, give +1 Exp even on a failure, and +3 if you pass the origi
 Apprentice:
 When Aiding another, receive PROGs (counting the haved DC).
 
-Bully (probs good to change the name):
+Bully:
 When size adjustments are in your favour (against smaller creatures), double them.
 OR
 only +1 with follow-up perk to double instead
@@ -119,3 +119,8 @@ only +1 with follow-up perk to double instead
 After an AOO, gain a new AD with 3 in 6 chance
 OR
 After an AOO, gain a new AD, same as the one you used for AOO but -1
+
+???:
+If you trigger an Attack of Opportunity by moving voluntarily, you may use Dodge to defend 
+as if you had spend an AD with value of 1, without spending any AD.
+	Follow ups: AD = 2; 4

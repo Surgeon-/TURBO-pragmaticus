@@ -10,6 +10,9 @@ Mechanic: Resources <- Presence, Beauty (Appearance), NPC Initial Reaction, HP B
 
 Bennies = Pragma Points
 
+https://deusex.fandom.com/wiki/Social_Enhancer_(DXHR)
+https://deusex.fandom.com/wiki/Social_Enhancer_(DXMD)
+
 GRAVITAS
 
 THE AUXILARY, Maerceci - Trixter God
