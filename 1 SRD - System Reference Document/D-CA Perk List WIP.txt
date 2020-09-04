@@ -124,3 +124,10 @@ After an AOO, gain a new AD, same as the one you used for AOO but -1
 If you trigger an Attack of Opportunity by moving voluntarily, you may use Dodge to defend 
 as if you had spend an AD with value of 1, without spending any AD.
 	Follow ups: AD = 2; 4
+	
+Power Attack:
+As a Swift Action, power up your next melee attack (it has to be done in the current turn).
+The Damage Step for that attack is 50% percent of the Base Damage (instead of 33%).
+If Incising - 75% instead of 50%.
+OR
++1 Damage Step and be done with it?
