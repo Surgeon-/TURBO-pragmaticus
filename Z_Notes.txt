@@ -67,10 +67,9 @@ CUNNING TRICKS - Swappable Perks
 		- Have AD = 4 for the extra action
 	- Spend 2 AD in one turn
 
+Commanding Stance - while in it, scout initiative deck at the end of each of your turns.
+	
 Hellequin
-
-The weapon lists are incomplete. More weapons will be added in the future.
-To do: Exotic Weapons, Gauntlets, Monk Weapons.
 
 https://opengameart.org/art-search?keys=parpg
 http://annales.info/evrope/behaym/behaym11.htm
@@ -96,6 +95,8 @@ MAGIC INTRO:
 	The magic eye unveils the blackened skies
 	A new horizon begins to each one that die
 
+Prophecies in Blood
+	
 PILLARS:
 
 - 0. Roleplay

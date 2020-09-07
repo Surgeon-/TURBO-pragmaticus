@@ -1,33 +1,3 @@
-0. Table of Contents
-1. Introduction
-    - incl. Needed items (dice etc.) and Setting info
-2. Elements of Character
-    - incl. Attributes and Derived Stats
-    
-3. Skills & Tests
-    - incl. Focus
-4. Skill List
-
-5. Stress
-6. Adventuring
-7. Corruption
-
-8. Combat
-9. Injury
-10. Equipment
-
-11. Character Creation
-12. Trait List
-13. Perk List
-14. "Fluff" tables
-
-15. Vestiges
-
-16. Magic
-
-========================
-          NEW
-========================
 
 0. TABLE OF CONTENTS (PART A)
 	Table of Contents
@@ -61,16 +31,16 @@
 	Karma
 	I know a ...
 	
-6. GM SECTION (PART G)
+6. GAME MASTERING (PART G)
 	???
-	
-7. EXTRAS (PART H)
-	Corruption
-	Magic
 	
 8. SAMPLE MONSTERS/NPCs (PART I)
 
-9. REFERENCE/TABLES/PRINTABLES (PART J)
+9. EXTRAS & PRINTABLES (PART J)	
+	Glossary
+	Index
+	Character Sheet
+	Utility Sheets
 	
 	
 	
