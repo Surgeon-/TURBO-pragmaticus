@@ -101,12 +101,15 @@ Prophecies in Blood
 	
 PILLARS:
 
-- 0. Roleplay
-- 1. Combat
-- 2. Social Interaction
-- 3. Exploration
-- 4. Infiltration
-- 5. ? Intrigue ?
+- 0. Roleplay           | -
+- 1. Combat             | Battlemaster
+- 2. Social Interaction | Negotiator [Ah, the]
+- 3. Exploration        | Explorer
+- 4. Infiltration       | Infiltrator/Thief/Rogue
+- 5. Survival           | Survivor
+                        | Mage
+						| Artificier/Alchemist/Scientist
+						| Jack [of all trades]
 
 SPECIAL WEAPONS:
 Warsaw, Square Hammer, Pain(t)ball, Meatball, Meatshield, Axe of Judgement
