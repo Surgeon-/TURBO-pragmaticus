@@ -1,0 +1,124 @@
+
+=== BASE SYSTEM TODOs: ============================================================================
+
+- Introduction 
+	- [L] What to expect from TURBO #pragmaticus
+	- [L] Briefly go over each chapter
+
+- Units of measurement
+	- [H] Decide on grid type for combat
+	- [L] Format better
+
+- Elements of Character
+	- [H] Minor edits
+	- [H] Align Skills
+	- [H] Finish Physical Characteristics
+		- [H] How do smaller creatures interact with the grid?
+		- [H] Phys. Char. per size
+	- [H] Secondary/Misc. stats
+
+- Skills & Skill Tests
+	- [H] Again, align skills
+	- [H] Explain passive scores
+	- [L] Write examples
+	- [M] Skill familiarity
+	- [L] GM's guide
+	- [L] Extra Skills
+	- [H] Special passive skills (Perception and Insight)
+	
+- Skill Descriptions
+	- [L] Write some
+	- [H] Align Skills
+	
+- Advancement
+	- [M] Advancement for passive skills
+	
+- Mortals' Hardships
+	- [L] Types of rests
+	- [M] Recovery
+	- [H] Some critical injury results missing
+	
+- Injury & Death
+	- [H] Reformat
+	- [H] ??? (could be outdated)
+	
+- Character creation
+	- [H] Write CC for human characters
+	- [H] Traits
+	- [H] Perks
+	- [M] Social status stuff
+	
+- Adventuring & Pacing
+	- [M] Long travel
+	- [H] Tension pool
+		- [M] Tension pool effect tables
+		
+- Social Interactions
+	- [M] Rewrite some stuff and align terminology
+	- [SL] Public debates
+	- [L] Running it as a GM
+	- [H] End and fail states
+	
+- Sequences
+	- Revise initiative stack to enable Leader "class"
+	- [H] Standard Standard actions
+	- [SL] Rules for chase scenes
+
+- Combat Update
+    - [H] Dual Wielding
+	- [H] Grappling
+	- [H] Conditional modifiers
+	- [H] Finish some special attacks
+	- [H] Finish active defences
+	- [H] More standard actions
+ 
+- Skill challenges
+	- [M] Investigate, test, rewrite if needed
+ 
+- Equipment
+	- [H] Inventory/Bulk management
+	- Weapon lists
+		- [H] Classical weapons
+		- [L] Modern weapons
+		- [L] Futuristic weapons
+	- Armour lists
+		- [H] Classical armour
+		- [L] Modern armour
+		- [L] Futuristic armour
+	- [M] Utility item lists
+ 
+- Meta-mechanics
+	- [H] Karma points
+	- [H] Pragma points
+	- [H] Circles
+	- [H] I know a...
+ 
+- GM guide
+	- [M] "Click" rule
+	- [L] Everything else
+ 
+- Printables
+	- [H] Make Character Sheets
+	- [H] Make player aids
+	- [H] Make GM aids
+	
+- Unsorted
+	- [L] Reputation
+	- [H] Simple NPCs and monsters
+	- [H] Some sample NPCs and monsters
+	- [L] Resources like in Dungeons the Dragoning 40k
+	
+- Finishing touches
+	- [SL] Merge everything
+	- [SL] Format
+	- [SL] Align page numbers
+ 
+=== COVENANT OF THE GOD-MACHINE TODOs: ============================================================
+ 
+- Species
+- Magic
+- Corruption
+- Traits & Perks
+- Pantheon
+
+	

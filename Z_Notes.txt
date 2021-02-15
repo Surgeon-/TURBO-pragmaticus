@@ -1,5 +1,56 @@
+	
+=== PILLARS & ROLES: ==============================================================================
+
+- 0. Roleplay           | -
+- 1. Combat             | Battlemaster
+- 2. Social Interaction | Negotiator [Ah, the]
+- 3. Exploration        | Explorer
+- 4. Infiltration       | Infiltrator/Thief/Rogue
+- 5. Survival           | Survivor
+                        | Mage
+						| Artificier/Alchemist/Scientist
+						| Jack [of all trades]
+
+=== SPECIES IDEAS: ================================================================================
+
+ Humans:
+	Spirit of Man / Broken Spirit
+ 
+ ???:
+	Dwarves that grow a lot of hair and eat rocks
+ 
+ Elysians:
+	Bitterness: ???
+	Ascended: +2 to all Attributes,  ???: -1 to all d12 rolls during Skill Tests
+	Dead skin black armour, -AGI, Hideous
+	Must eat a lot (Devouring emptiness?)
+	[Angina's Curse]
+	[Blackhearted angels, fallen from grace]
+	
+ Trolls:
+    Troll regeneration
+	Option for super growth
+	
+ Vendrooiy:
+	Tall dudes for whom knowledge is hereditary
+	
+ Kasechel:
+	Buff quadripeds with beaks
+	
+ Bobus:
+	Cunning little kobold-like people (small size)
+	
+=== SPECIAL WEAPONS: ==============================================================================
+
+Warsaw, Square Hammer, Pain(t)ball, Meatball, Meatshield, Axe of Judgement
+"Contrary to popular belief, a warsaw is a type of battle axe, and not the capital of Poland."
+	
+=== MISCELLANEOUS: ================================================================================
+	
 Ironclad, Intrinsic, Mercurial, Morose, Saturnine, Nonpareil, Fighting Spirit, Stormblast, Samsara
-Anger (Mis)management
+Gravitas, Hellequin
+
+Anger (Mis)management, Combat frenzy, Reckless strike, Feel no Pain, Sixth Sense
 
 THE EXCITEMENT CHAMBER
 
@@ -16,11 +67,7 @@ Mechanic: Resources <- Presence, Beauty (Appearance), NPC Initial Reaction, HP B
 
 Bennies = Pragma Points
 
-https://deusex.fandom.com/wiki/Social_Enhancer_(DXHR)
-https://deusex.fandom.com/wiki/Social_Enhancer_(DXMD)
 http://www.infinitedragons.com/monster-personalities/
-
-GRAVITAS
 
 THE AUXILARY, Maerceci - Trixter God
 
@@ -69,7 +116,7 @@ CUNNING TRICKS - Swappable Perks
 
 Commanding Stance - while in it, scout initiative deck at the end of each of your turns.
 	
-Hellequin
+
 
 https://www.reddit.com/r/UESRPG/comments/er84u2/can_any_size_weapon_party_any_other_weapon/
 
@@ -98,18 +145,17 @@ MAGIC INTRO:
 	A new horizon begins to each one that die
 
 Prophecies in Blood
+Falconer - Locust Swarm
 	
-PILLARS:
+2 actions in a row in a sequence => ???
 
-- 0. Roleplay           | -
-- 1. Combat             | Battlemaster
-- 2. Social Interaction | Negotiator [Ah, the]
-- 3. Exploration        | Explorer
-- 4. Infiltration       | Infiltrator/Thief/Rogue
-- 5. Survival           | Survivor
-                        | Mage
-						| Artificier/Alchemist/Scientist
-						| Jack [of all trades]
+Conductor of the Poop Train
 
-SPECIAL WEAPONS:
-Warsaw, Square Hammer, Pain(t)ball, Meatball, Meatshield, Axe of Judgement
+tidligere eventyr = past adventures
+heretter eventyr = hereafter adventures
+
+Firing into Melee & Stuff
+
+Perk that adds +1 AD up to max of 4, if already 4, then ...
+
+Simplified enemies / NPCs
