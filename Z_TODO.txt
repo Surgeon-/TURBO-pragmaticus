@@ -6,15 +6,15 @@
 	- [L] Briefly go over each chapter
 
 - Units of measurement
-	- [H] Decide on grid type for combat
+	- DONE Decide on grid type for combat (it's a hex grid, big surprise)
 	- [L] Format better
 
 - Elements of Character
 	- [H] Minor edits
 	- [H] Align Skills
-	- [H] Finish Physical Characteristics
-		- [H] How do smaller creatures interact with the grid?
-		- [H] Phys. Char. per size
+	- DONE Finish Physical Characteristics
+		- DONE How do smaller creatures interact with the grid?
+		- DONE Phys. Char. per size
 	- [H] Secondary/Misc. stats
 
 - Skills & Skill Tests
@@ -107,6 +107,7 @@
 	- [H] Simple NPCs and monsters
 	- [H] Some sample NPCs and monsters
 	- [L] Resources like in Dungeons the Dragoning 40k
+	- [L] Swimming, climbing, flying, burrowing, or long-distance overland or oversea travel
 	
 - Finishing touches
 	- [SL] Merge everything
