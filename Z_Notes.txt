@@ -11,6 +11,11 @@
 						| Artificier/Alchemist/Scientist
 						| Jack [of all trades]
 
+=== MS WORD TIPS:  ================================================================================
+
+https://support.microsoft.com/en-us/office/create-a-cross-reference-300b208c-e45a-487a-880b-a02767d9774b
+https://word.tips.net/T000957_Inserting_Page_Number_Cross-References.html
+
 === SPECIES IDEAS: ================================================================================
 
  Humans:
