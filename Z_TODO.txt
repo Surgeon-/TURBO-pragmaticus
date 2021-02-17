@@ -88,7 +88,7 @@
 	- [M] Utility item lists
  
 - Meta-mechanics
-	- [H] Karma points
+	- DONE Karma points
 	- [H] Pragma points
 	- [H] Circles
 	- [H] I know a...
@@ -108,6 +108,7 @@
 	- [H] Some sample NPCs and monsters
 	- [L] Resources like in Dungeons the Dragoning 40k
 	- [L] Swimming, climbing, flying, burrowing, or long-distance overland or oversea travel
+	- [L] Karma -> Deeds
 	
 - Finishing touches
 	- [SL] Merge everything
