@@ -66,11 +66,12 @@
 
 - Combat Update
     - [H] Dual Wielding
-	- [H] Grappling
+	- [H] Grapple, Knock Back, Sunder, Precise Targeting
 	- [H] Conditional modifiers
 	- [H] Finish some special attacks
 	- [H] Finish active defences
 	- [H] More standard actions
+	- [H] Unarmed attacks vs Armed targets expose you
  
 - Skill challenges
 	- [M] Investigate, test, rewrite if needed

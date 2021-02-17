@@ -131,3 +131,8 @@ The Damage Step for that attack is 50% percent of the Base Damage (instead of 33
 If Incising - 75% instead of 50%.
 OR
 +1 Damage Step and be done with it?
+
+Crush Their Will:
+REQ PRE 7, Command Rank 3+
++1 DC imposed when Compelling Surrender
+Can be taken a 2nd time with PRE 9, Command Rank 6+, and a 3rd time with PRE 11, Command Rank 9+
