@@ -132,7 +132,17 @@ If Incising - 75% instead of 50%.
 OR
 +1 Damage Step and be done with it?
 
-Crush Their Will:
+Break Their Will:
 REQ PRE 7, Command Rank 3+
 +1 DC imposed when Compelling Surrender
 Can be taken a 2nd time with PRE 9, Command Rank 6+, and a 3rd time with PRE 11, Command Rank 9+
+
+Deadeye:
+Ranged weapons gain Precise if within [range]
+
+Aikido:
+Can use Melee (Unarmed) instead of Athletics to hold a target (larger by 1 category at most) in a grapple
+
+Get Over Here!
+If using a weapon with a Hook or a Chain, you can use the "Knock Back" Attack Effect to pull targets towards you.
+You can step back [range] while doing this. 
