@@ -145,4 +145,7 @@ Can use Melee (Unarmed) instead of Athletics to hold a target (larger by 1 categ
 
 Get Over Here!
 If using a weapon with a Hook or a Chain, you can use the "Knock Back" Attack Effect to pull targets towards you.
-You can step back [range] while doing this. 
+You can step back [range] while doing this.
+
+Improved Initiative:
++2 Reaction for purposes of constructing the Initiative Stack in a Sequence 
