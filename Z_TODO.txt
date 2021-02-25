@@ -21,10 +21,10 @@
 	- [H] Again, align skills
 	- [H] Explain passive scores
 	- [L] Write examples
-	- [M] Skill familiarity
+	- DONE Skill familiarity
 	- [L] GM's guide
 	- [L] Extra Skills
-	- [H] Special passive skills (Perception and Insight)
+	- [H] Special passive skills (Perception and Insight) + their progression
 	
 - Skill Descriptions
 	- [L] Write some
@@ -110,6 +110,7 @@
 	- [L] Resources like in Dungeons the Dragoning 40k
 	- [L] Swimming, climbing, flying, burrowing, or long-distance overland or oversea travel
 	- [L] Karma -> Deeds
+	- [H] Armor raises ETP; What does ETP do? (probs -1 CM)
 	
 - Finishing touches
 	- [SL] Merge everything

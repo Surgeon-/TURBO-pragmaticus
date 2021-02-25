@@ -1,0 +1,19 @@
+Footsoldier
+Grunt
+Labourer
+Mercenary
+Merchant
+Physician
+Nature-dweller
+Urban-dweller
+Scholar
+Scientist
+Explorer
+Pirate
+Sailor
+Bandit
+High society
+Salt of the Earth
+Servant
+Occultist
+Acolyte

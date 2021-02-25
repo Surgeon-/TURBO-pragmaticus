@@ -36,7 +36,7 @@ Dodger: (req. Reaction 6, Agility 6)
 Passive +1 bonus to defence
 
 Ironclad:
-Minimal Enervation reduced by 1.
+Bulk Value of worn armour reduced by %
 
 Stability:
 +1 Success needed to trip you
@@ -149,3 +149,7 @@ You can step back [range] while doing this.
 
 Improved Initiative:
 +2 Reaction for purposes of constructing the Initiative Stack in a Sequence 
+
+Mule:
+REQ: -
++2 MIG for purposes of calculating Load Levels
