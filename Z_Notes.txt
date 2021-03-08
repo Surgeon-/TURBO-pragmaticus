@@ -59,6 +59,8 @@ Anger (Mis)management, Combat frenzy, Reckless strike, Feel no Pain, Sixth Sense
 
 THE EXCITEMENT CHAMBER
 
+"Increase DC of the test" = "Add Automatic Successes to opponent" in Opposed Tests
+
 Can attune to (1 + PRE) magic items at a time
 
 Powerhead of the Universe, Vice Citizen

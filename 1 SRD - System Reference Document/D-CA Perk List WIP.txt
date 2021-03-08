@@ -20,13 +20,16 @@ BONUS (under consideration):
 ===============================================================================
 
 Alertness:
-+1 AP at the start of a Sequence (lost if not used before the player's turn)
++1 AD at the start of a Sequence (lost if not used before the player's turn)
 
 Anticipation: (req. Int 6)
 +INT to initiative
 
-Awareness: (req. Reaction 6)
-+2 to Initiative
+Awareness [name WIP]: (req. Reaction 6)
+You may choose to use this Perk at the start of any Sequence, unless surprised.
+While in effect, your Reaction modifier is increased by 1 for purposes of adding
+cards to the Initiative Stack, but your Focus is also reduced by 1. You may end
+the Effect at any point during the Sequence (it ends automatically at the end).
 
 Backstab:
 Damage vs unaware opponents is rounded up instead of down.
@@ -57,16 +60,16 @@ Diehard: (req. Might 9)
 +1 Wound Slot of each level
 
 Pocket Ordinance:
-+2 Might for ranged weapon Might requirements
++2 Might for ranged weapon Might requirements [Enhancer]
 
 Heavyweight:
-+2 Might for melee weapon Might requirements
++2 Might for melee weapon Might requirements [Enhancer]
 
 Action (Wo)Man:
 Once per round, one action costs 1 AP less [Enhancer]
 
-Adrenaline Rush:
-Natural 11 (12) on Initiative rolls = +1 (2) AP
+// Adrenaline Rush:
+// Natural 11 (12) on Initiative rolls = +1 (2) AP
 
 Penetrator:
 +25% Armour Pen value; Cost: 1 Success [Enhancer]
@@ -119,6 +122,9 @@ only +1 with follow-up perk to double instead
 After an AOO, gain a new AD with 3 in 6 chance
 OR
 After an AOO, gain a new AD, same as the one you used for AOO but -1
+
+Stance Dance:
+???
 
 ???:
 If you trigger an Attack of Opportunity by moving voluntarily, you may use Dodge to defend 
