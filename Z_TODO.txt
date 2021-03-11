@@ -65,13 +65,13 @@
 	- [SL] Rules for chase scenes
 
 - Combat Update
-    - [H] Dual Wielding
+    - [H] Dual Wielding (+1/+2 DC, both must be against the same target unless have perk for split)
 	- [H] Grapple, Sunder,
 	- [H] Conditional modifiers
 	- [H] Finish active defences
 	- [H] More standard actions
 	- [H] Unarmed attacks vs Armed targets expose you
-	- [H] Battlefield Commander actions
+	- [H] Battlefield Commander actions (scout top, can move to bottom; scout top 3, leave as is; AD bump to next)
  
 - Skill challenges
 	- [M] Investigate, test, rewrite if needed
@@ -110,7 +110,7 @@
 	- [L] Resources like in Dungeons the Dragoning 40k
 	- [L] Swimming, climbing, flying, burrowing, or long-distance overland or oversea travel
 	- [L] Karma -> Deeds
-	- [H] Armor raises ETP; What does ETP do? (probs -1 CM)
+	- [H] Armor raises ETP; What does ETP do = -1 CM
 	
 - Finishing touches
 	- [SL] Merge everything
