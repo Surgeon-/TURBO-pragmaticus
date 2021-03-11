@@ -1,0 +1,38 @@
+# Project setup
+cmake_minimum_required(VERSION 3.14)
+project("csgen" LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Conan setup
+include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+conan_basic_setup()
+
+# Route executables into folder 'bin' and libraries into 'lib'
+# https://stackoverflow.com/questions/6594796/how-do-i-make-cmake-output-into-a-bin-dir
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib) 
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+if(WIN32)
+    set(TARGET_NAME ${PROJECT_NAME}.exe)
+else()
+    set(TARGET_NAME ${PROJECT_NAME})
+endif()
+
+add_executable(${TARGET_NAME}
+    src/Common.hpp
+    src/GeneratorBase.hpp
+    src/Main.cpp
+)
+
+target_include_directories(${TARGET_NAME}
+PUBLIC
+    src    
+)
+
+target_link_libraries(${TARGET_NAME} 
+PUBLIC
+    ${CONAN_LIBS}
+)
