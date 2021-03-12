@@ -19,13 +19,16 @@ public:
   void dumpCanvasToFile(const std::string& aFileName) const;
 
 protected: // Methods
-  float toCanvasCoord(PZInt aCoord_mm) const;
-  sf::Vector2f toCanvasCoord(PZInt aX_mm, PZInt aY_mm) const;
+  float toCanvasCoord(float aCoord_mm) const;
+  sf::Vector2f toCanvasCoord(float aX_mm, float aY_mm) const;
 
-  void putHorizontal1pxLine(PZInt aX_mm, PZInt aY_mm, PZInt aWidth_mm);
-  void putVertical1pxLine(PZInt aX_mm, PZInt aY_mm, PZInt aHeight_mm);
-  void putRect(PZInt aX_mm, PZInt aY_mm, PZInt aBBoxWidth_mm,
-               PZInt aBBoxHeight_mm, PZInt aThickness_px);
+  void putHorizontal1pxLine(float aX_mm, float aY_mm, float aWidth_mm);
+  void putVertical1pxLine(float aX_mm, float aY_mm, float aHeight_mm);
+  void putRect(float aX_mm, float aY_mm, float aBBoxWidth_mm,
+               float aBBoxHeight_mm, PZInt aThickness_px);
+
+  void setOutlineColour(sf::Color aColour);
+  void setFillColour(sf::Color aColour);
 
   void finalizeCanvas();
   // clearWithColour
@@ -53,54 +56,75 @@ void GeneratorBase::dumpCanvasToFile(const std::string& aFileName) const {
   }
 }
 
-float GeneratorBase::toCanvasCoord(PZInt aCoord_mm) const {
+float GeneratorBase::toCanvasCoord(float aCoord_mm) const {
   return static_cast<float>(aCoord_mm * _pixelsPerMillimetre);
 }
 
-sf::Vector2f GeneratorBase::toCanvasCoord(PZInt aX_mm, PZInt aY_mm) const {
+sf::Vector2f GeneratorBase::toCanvasCoord(float aX_mm, float aY_mm) const {
   return sf::Vector2f{toCanvasCoord(aX_mm), toCanvasCoord(aY_mm)};
 }
 
-void GeneratorBase::putHorizontal1pxLine(PZInt aX_mm, PZInt aY_mm, PZInt aWidth_mm) {
-  sf::RectangleShape rect;
-  rect.setPosition(toCanvasCoord(aX_mm, aY_mm));
-  rect.setSize({toCanvasCoord(aWidth_mm), 0.f});
+void GeneratorBase::putHorizontal1pxLine(float aX_mm, float aY_mm, float aWidth_mm) {
+  sf::Vertex vertices[2];
+  vertices[0].position = toCanvasCoord(aX_mm, aY_mm);
+  vertices[0].color = _outlineColour;
+  vertices[1].position = toCanvasCoord(aX_mm + aWidth_mm, aY_mm);
+  vertices[1].color = _outlineColour;
 
-  rect.setFillColor(sf::Color::Transparent);
-  rect.setOutlineColor(_outlineColour);
-  rect.setOutlineThickness(1.f);
-
-  _canvas.draw(rect);
+  _canvas.draw(vertices, 2, sf::PrimitiveType::LineStrip);
 }
 
-void GeneratorBase::putVertical1pxLine(PZInt aX_mm, PZInt aY_mm, PZInt aHeight_mm) {
-  sf::RectangleShape rect;
-  rect.setFillColor(sf::Color::Transparent);
-  rect.setOutlineColor(_outlineColour);
-  rect.setOutlineThickness(1.f);
+void GeneratorBase::putVertical1pxLine(float aX_mm, float aY_mm, float aHeight_mm) {
+  sf::Vertex vertices[2];
+  vertices[0].position = toCanvasCoord(aX_mm, aY_mm);
+  vertices[0].color = _outlineColour;
+  vertices[1].position = toCanvasCoord(aX_mm, aY_mm + aHeight_mm);
+  vertices[1].color = _outlineColour;
 
-  rect.setPosition(toCanvasCoord(aX_mm, aY_mm));
-  rect.setSize({1.f, toCanvasCoord(aHeight_mm)});
-
-  _canvas.draw(rect);
+  _canvas.draw(vertices, 2, sf::PrimitiveType::LineStrip);
 }
 
-void GeneratorBase::putRect(PZInt aX_mm, PZInt aY_mm, PZInt aBBoxWidth_mm,
-                            PZInt aBBoxHeight_mm, PZInt aThickness_px) {
-  sf::RectangleShape rect;
-  rect.setFillColor(_fillColour);
-  rect.setOutlineColor(_outlineColour);
-  rect.setOutlineThickness(1.f);
+void GeneratorBase::putRect(float aX_mm, float aY_mm, float aBBoxWidth_mm,
+                            float aBBoxHeight_mm, PZInt aThickness_px) {
+  sf::Vertex vertices[5];
 
-  for (PZInt i = 0; i < aThickness_px; i += 1) {
-    rect.setPosition({toCanvasCoord(aX_mm) + static_cast<float>(i),
-                      toCanvasCoord(aY_mm) + static_cast<float>(i)
-                     });
-    rect.setSize({toCanvasCoord(aBBoxWidth_mm)  - static_cast<float>(2 * i),
-                  toCanvasCoord(aBBoxHeight_mm) - static_cast<float>(2 * i)
-                 });
-    _canvas.draw(rect);
+  for (auto& vertex : vertices) {
+    vertex.color = _outlineColour;
   }
+
+  const auto CORRECTION_OFFSET = 1.f;
+
+  for (PZInt i = 0; i <= aThickness_px; i += 1) {
+    vertices[0].position = vertices[4].position =
+      sf::Vector2f{toCanvasCoord(aX_mm) + static_cast<float>(i) + CORRECTION_OFFSET,
+                   toCanvasCoord(aY_mm) + static_cast<float>(i)};
+    vertices[1].position =
+      sf::Vector2f{toCanvasCoord(aX_mm + aBBoxWidth_mm) - static_cast<float>(i),
+                   toCanvasCoord(aY_mm) + static_cast<float>(i)};
+    vertices[2].position =
+      sf::Vector2f{toCanvasCoord(aX_mm + aBBoxWidth_mm) - static_cast<float>(i),
+                   toCanvasCoord(aY_mm + aBBoxHeight_mm) - static_cast<float>(i) - CORRECTION_OFFSET};
+    vertices[3].position =
+      sf::Vector2f{toCanvasCoord(aX_mm) + static_cast<float>(i),
+                   toCanvasCoord(aY_mm + aBBoxHeight_mm) - static_cast<float>(i) - CORRECTION_OFFSET};
+
+    if (i < aThickness_px) {
+      _canvas.draw(vertices, 5, sf::PrimitiveType::LineStrip);
+    } else {
+      for (auto& vertex : vertices) {
+        vertex.color = _fillColour;
+      }
+      _canvas.draw(vertices, 4, sf::PrimitiveType::Quads);
+    }
+  } // end outer for loop
+}
+
+void GeneratorBase::setOutlineColour(sf::Color aColour) {
+  _outlineColour = aColour;
+}
+
+void GeneratorBase::setFillColour(sf::Color aColour) {
+  _fillColour = aColour;
 }
 
 void GeneratorBase::finalizeCanvas() {
