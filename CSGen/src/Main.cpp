@@ -1,14 +1,13 @@
 
-#include "Common.hpp"
-#include "GeneratorBase.hpp"
+#include "Framework.hpp"
+#include "TurboPragmaticus.hpp"
 
 #include <cstdlib>
 #include <iostream>
 #include <stdexcept>
 #include <string>
 
-#include <SFML/Graphics.hpp>
-#include <SFML/Window.hpp>
+#if 0
 
 #define KCSGEN_PAGE_WIDTH_MM 180.f
 #define KCSGEN_PAGE_HEIGHT_MM 270.f
@@ -195,15 +194,21 @@ private:
 
 } // namespace CSGen
 
+#endif
+
 void MainBody() {
-  CSGen::Generator generator{
-    static_cast<CSGen::PZInt>(KCSGEN_PAGE_WIDTH_MM),
-    static_cast<CSGen::PZInt>(KCSGEN_PAGE_HEIGHT_MM),
+  using namespace CSGen;
+
+  Framework::Page page{
+    static_cast<Framework::PZInt>(TurboPragmaticus::PAGE_WIDTH_MM),
+    static_cast<Framework::PZInt>(TurboPragmaticus::PAGE_HEIGHT_MM),
     12 // Pixels per mm (12 => 304.8 ppi)
   };
 
-  generator.generatePage(0);
-  generator.dumpCanvasToFile("out.png");
+  TurboPragmaticus::DrawPage1(page);
+
+  page.render();
+  page.dumpToFile("out.png");
 }
 
 #define CATCH_ALL_EXCEPTIONS_FROM_MAIN 1

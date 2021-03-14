@@ -18,10 +18,10 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(TARGET_NAME ${PROJECT_NAME})
 
 add_executable(${TARGET_NAME}
-    src/Common.hpp
-    src/GeneratorBase.hpp
+    src/Framework.cpp
     src/Main.cpp
-)
+    src/TurboPragmaticus.cpp
+  "src/Framework.cpp")
 
 target_include_directories(${TARGET_NAME}
 PUBLIC
