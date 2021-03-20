@@ -1,5 +1,5 @@
 # TURBO #pragmaticus
-A horrendously complicated fantasy/sci-fi pen-and-paper RPG (does not actually include any code)
+A horrendously complicated fantasy/sci-fi pen-and-paper RPG
 
 ### Notable contents:
 * **SRD - System Reference Document:** Contains the rules of the game system, but no setting information. Status: Work in progress.
