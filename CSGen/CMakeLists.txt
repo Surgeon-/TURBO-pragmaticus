@@ -32,3 +32,6 @@ target_link_libraries(${TARGET_NAME}
 PUBLIC
     ${CONAN_LIBS}
 )
+
+# Copy resources to binary dir (for easier testing)
+file(COPY "resources" DESTINATION "bin")

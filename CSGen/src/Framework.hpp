@@ -1,8 +1,10 @@
 #ifndef CSGEN_FRAMEWORK_HPP
 #define CSGEN_FRAMEWORK_HPP
 
+#include <list>
 #include <stdexcept>
 #include <string>
+#include <utility>
 #include <vector>
 
 #include <SFML/Graphics.hpp>
@@ -13,7 +15,12 @@ namespace Framework {
 
 using PZInt = int;
 
-
+constexpr int TEXT_HA_LEFT   = 0;
+constexpr int TEXT_HA_CENTRE = 1;
+constexpr int TEXT_HA_RIGHT  = 2;
+constexpr int TEXT_VA_TOP    = 0;
+constexpr int TEXT_VA_CENTRE = 1;
+constexpr int TEXT_VA_BOTTOM = 2;
 
 class Page {
 public:
@@ -35,6 +42,9 @@ public:
 
   void render();
 
+  const sf::Font* loadFont(const std::string& aPath) const;
+  const sf::Image* loadImage(const std::string& aPath) const;
+
   // file name must end with .bmp, .png, .tga or .jpg
   void dumpToFile(const std::string& aFileName) const;
 
@@ -42,6 +52,12 @@ public:
   void putVertical1pxLine(float aX_px, float aY_px, float aHeight_px);
   void putRect(float aX_px, float aY_px, float aBBoxWidth_px,
                float aBBoxHeight_px, PZInt aThickness_px);
+
+  void putText(float aBBoxX_px, float aBBoxY_px, float aBBoxWidth_px, float aBBoxHeight_px,
+               sf::Text aText, int aHorAlign = TEXT_HA_LEFT, int aVerAlign = TEXT_VA_TOP,
+               float aHorOffset_px = 0.f, float aVerOffset_px = 0.f);
+
+  void putImage(float aBBoxX_px, float aBBoxY_px, const sf::Image& aImage);
 
 private:
   struct Colors {
@@ -51,8 +67,9 @@ private:
 
   sf::RenderTexture _canvas;
   std::vector<Colors> _colors;
+  mutable std::list<std::pair<std::string, sf::Font>> _fontCache;
+  mutable std::list<std::pair<std::string, sf::Image>> _imageCache;
   PZInt _pixelsPerMillimetre;
-
 };
 
 

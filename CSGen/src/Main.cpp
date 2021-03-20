@@ -199,16 +199,23 @@ private:
 void MainBody() {
   using namespace CSGen;
 
+  std::cout << "Initializing page...\n";
   Framework::Page page{
     static_cast<Framework::PZInt>(TurboPragmaticus::PAGE_WIDTH_MM),
     static_cast<Framework::PZInt>(TurboPragmaticus::PAGE_HEIGHT_MM),
     12 // Pixels per mm (12 => 304.8 ppi)
   };
 
+  std::cout << "Drawing elements...\n";
   TurboPragmaticus::DrawPage1(page);
 
+  std::cout << "Rendering...\n";
   page.render();
+
+  std::cout << "Saving to file...\n";
   page.dumpToFile("out.png");
+
+  std::cout << "Done!" << std::endl;
 }
 
 #define CATCH_ALL_EXCEPTIONS_FROM_MAIN 1

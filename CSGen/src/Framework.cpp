@@ -1,6 +1,8 @@
 
 #include "Framework.hpp"
 
+#include <cmath>
+
 namespace CSGen {
 namespace Framework {
 
@@ -57,6 +59,50 @@ void Page::clearWithColor(sf::Color aColor) {
 
 void Page::render() {
   _canvas.display();
+}
+
+const sf::Font* Page::loadFont(const std::string& aPath) const {
+  const auto iter = std::find_if(std::begin(_fontCache), std::end(_fontCache),
+               [&aPath](const std::pair<std::string, sf::Font>& aElem) {
+                 return (aElem.first == aPath);
+               });
+
+  if (iter != std::end(_fontCache)) {
+    return &(iter->second);
+  }
+
+  _fontCache.emplace_back();
+
+  if (!_fontCache.back().second.loadFromFile(aPath)) {
+    _fontCache.pop_back();
+    throw std::runtime_error("Could not load font " + aPath);
+  }
+
+  _fontCache.back().first = aPath;
+
+  return &(_fontCache.back().second);
+}
+
+const sf::Image* Page::loadImage(const std::string& aPath) const {
+  const auto iter = std::find_if(std::begin(_imageCache), std::end(_imageCache),
+                                 [&aPath](const std::pair<std::string, sf::Image>& aElem) {
+                                   return (aElem.first == aPath);
+                                 });
+
+  if (iter != std::end(_imageCache)) {
+    return &(iter->second);
+  }
+
+  _imageCache.emplace_back();
+
+  if (!_imageCache.back().second.loadFromFile(aPath)) {
+    _imageCache.pop_back();
+    throw std::runtime_error("Could not load image " + aPath);
+  }
+
+  _imageCache.back().first = aPath;
+
+  return &(_imageCache.back().second);
 }
 
 void Page::dumpToFile(const std::string& aFileName) const {
@@ -119,6 +165,80 @@ void Page::putRect(float aX_px, float aY_px, float aBBoxWidth_px,
       _canvas.draw(vertices, 4, sf::PrimitiveType::Quads);
     }
   } // end outer for loop
+}
+
+void Page::putText(float aBBoxX_px, float aBBoxY_px, float aBBoxWidth_px, float aBBoxHeight_px,
+                   sf::Text aText, int aHorAlign, int aVerAlign,
+                   float aHorOffset_px, float aVerOffset_px) {
+  const auto localBounds = aText.getLocalBounds();
+  sf::Vector2f origin;
+  sf::Vector2f pos;
+
+  switch (aHorAlign) {
+  default:
+  case TEXT_HA_LEFT:
+    origin.x = 0.f;
+    pos.x = aBBoxX_px;
+    break;
+
+  case TEXT_HA_CENTRE:
+    origin.x = localBounds.left + localBounds.width * 0.5f;
+    pos.x = aBBoxX_px + (aBBoxWidth_px * 0.5f);
+    break;
+
+  case TEXT_HA_RIGHT:
+    origin.x = localBounds.left + localBounds.width;
+    pos.x = aBBoxX_px + aBBoxWidth_px;
+    break;
+  }
+
+  switch (aVerAlign) {
+  default:
+  case TEXT_VA_TOP:
+    origin.y = 0.f;
+    pos.y = aBBoxY_px;
+    break;
+
+  case TEXT_VA_CENTRE:
+    origin.y = localBounds.top + localBounds.height / 2.f;
+    pos.y = aBBoxY_px + (aBBoxHeight_px * 0.5f);
+    break;
+
+  case TEXT_VA_BOTTOM:
+    origin.y = localBounds.top + localBounds.height;
+    pos.y = aBBoxY_px + aBBoxHeight_px;
+    break;
+  
+  }
+
+  pos.x += aHorOffset_px;
+  pos.y += aVerOffset_px;
+
+  origin.x = std::round(origin.x);
+  origin.y = std::round(origin.y);
+  pos.x = std::round(pos.x);
+  pos.y = std::round(pos.y);
+
+  aText.setOrigin(origin);
+  aText.setPosition(pos);
+
+  _canvas.draw(aText);
+
+  //pushColors(sf::Color::Red, sf::Color::Transparent);
+  //putRect(aBBoxX_px, aBBoxY_px, aBBoxWidth_px + 1.f, aBBoxHeight_px + 1.f, 1);
+  //popColors();
+}
+
+void Page::putImage(float aBBoxX_px, float aBBoxY_px, const sf::Image& aImage) {
+  sf::Texture texture;
+  texture.loadFromImage(aImage);
+
+  sf::Sprite sprite;
+  sprite.setTexture(texture, true);
+
+  sprite.setPosition({aBBoxX_px, aBBoxY_px});
+
+  _canvas.draw(sprite);
 }
 
 } // namespace Framework
