@@ -1,0 +1,11 @@
+[requires]
+sfml/2.5.1@jbatnozic/stable
+
+[options]
+sfml:audio=False
+sfml:graphics=True
+sfml:network=False
+sfml:window=True
+
+[generators]
+cmake
